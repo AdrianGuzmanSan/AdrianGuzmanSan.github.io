@@ -1,5 +1,5 @@
 p {
-  color: red;
+  color: rgb(203, 146, 0);
   width: 80%;
   border: 1px dotted black;
   font-family: 'Times New Roman', Times, serif;
@@ -16,9 +16,5 @@ p {
 .botonVerde {
   border: 5px solid rgb(126, 167, 147);
   background-color: chartreuse;
-}
-
-#colorsillo {
-  color: darkorange;
 }
 
