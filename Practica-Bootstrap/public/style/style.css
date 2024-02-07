@@ -1,0 +1,37 @@
+/* en este documento de estilo, cambiaremos los colores de 
+algunos botones de bootstrap a colores personalizados */
+
+/* cada botón tiene una clase personalizada, con ella cambiaremos los colores */
+.btn-remix{
+    background-color: rgb(195, 240, 105);
+    color:rgb(36, 36, 36);
+}
+/* El selector "hover" se activa cuando pasamos el puntero por encima del elemento
+**recordemos que puede aplicarse a cualquier cosa, no solo a botones */
+.btn-remix:hover{
+    background-color: rgb(80, 80, 80);
+    color:rgb(195, 240, 105);
+    border-color: rgb(195, 240, 105);;
+}
+
+.btn-mineral{
+    background-color: rgb(0, 105, 140);
+    color:rgb(250, 250, 250);
+}
+
+.btn-mineral:hover{
+    background-color: rgb(250, 250, 250);
+    color:rgb(0, 105, 140);
+    border-color: rgb(0, 105, 140);;
+}
+
+.btn-deep{
+    background-color: rgb(234, 63, 129);
+    color:rgb(250, 250, 250);
+}
+
+.btn-deep:hover{
+    background-color: rgb(250, 250, 250);
+    color:rgb(234, 63, 129);
+    border-color: rgb(234, 63, 129);;
+}
